@@ -11,7 +11,7 @@ import java.net.http.HttpResponse;
 import com.google.gson.Gson;
 
 public class Consulta {
-    String Apikey = "a58a3e3f6b2320d4e3949572";
+    String Apikey = "your_api_key";
     String Url="https://v6.exchangerate-api.com/v6/";
 
     public Moneda ConsultaMoneda(String moneda1, String moneda2) {
